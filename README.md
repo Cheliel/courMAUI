@@ -2,7 +2,7 @@
 
 => **Array** taille fix 
 
-=> **List** taile modulable, recherche par index, typé à l'*init*
+=> **List** taille modulable, recherche par index, typé à l'*init*
 
 ## SOLID 
 
@@ -19,7 +19,7 @@ Il faut donc remplacer la dépendance par une interface.
 
 ### Open / Close 
 
-En ajoutant Iplayer cela n'a pas d'impacte sur la calss Game. 
+En ajoutant Iplayer cela n'a pas d'impacte sur la class Game. 
 
 
 ### Substitution de Liskov 
@@ -173,6 +173,136 @@ Il est possible de rendre une fonction asynchrone avec le type de retour avec **
 
 @see => <a href="https://www.conventionalcommits.org/en/v1.0.0/"> conventionnal commit </a>
 
+
+
+
+
+
+
+# MAUI 
+
+## Vue d'enssemble 
+
+Langage : 
+- C#
+- XAML 
+
+
+### Setup d'environnement 
+
+![emo-la-tueur](images/emulatueur.png)
+
+### Cycle de vie d'application 
+
+![alt text](images/image.png)
+Il est possible de rajouter du code entre chaque étape de l'application. 
+![alt text](images/image2.png) 
+
+## Interface utilisateur 
+
+![alt text](images/interfaces.png)
+
+### Controls (Pages / Layouts / Views)
+
+### Shell
+
+
+### Gestures 
+
+![alt text](images/gesture.png)
+
+### Styles 
+
+
+## Architecture 
+
+### DataBinding 
+
+### MVVM 
+![alt text](images/mvvm.png)
+
+Façon boiler plate : 
+ ![alt text](images/propertyChange.png)
+
+
+Façon optimal : 
+
+### Injection de dépendance 
+![alt text](images/injection.png)
+
+Permet dans notre classe d'instancier un object sans le crée dans une classes. 
+
+### Testing 
+
+
+## Device SDK 
+
+
+
+
+
+
+
+# REST API
+
+![alt text](images/rest.png)
+
+
+## HTTP Méthode structure 
+## Mise en place .net
+
+![alt text](images/projectConfig.png)
+![alt text](image.png)
+![alt text](image-1.png)
+# Consomation WEB API
+## HTTp Client
+## Resilience 
+
+# EntityFramework & PostgreSQL 
+
+
+
+
+
+
+
+
+
+# Azure 
+
+## GitFlow
+
+![alt text](images/gitflow.png)
+
+
+
+
+# Authentification 
+
+## OAUTH 
+
+![alt text](images/Oauth.png)
+
+
+## Core Identity 
+
+![alt text](images/fxCoreIdentity.png)
+
+
+## principe 
+
+![alt text](images/tableCoreIdentity.png)
+
+## Mise en place 
+
+![alt text](images/setCoreIdentity.png)
+
+![alt text](images/configCoreIdentity.png)
+
+![alt text](images/codeCodeIdentity.png)
+
+![alt text](images/createTokenCore.png)
+
 ## Project
 
 - 1 plateforme mini 
@@ -180,13 +310,21 @@ Il est possible de rendre une fonction asynchrone avec le type de retour avec **
 - CICD - azure 
 
 => formation de group 31 Janvier 
-
 - Avril => première présention de l'app 
-
 - Juin => soutenance de projet 
+- 2 Juin
 
-- 
+
+## Orale 
+
+- Présentation de projet 
+- Architecture technique 
+- Organisation 
 
 
+- Présentation de l'app -> personne qui ne s'y connaisse pas à l'IT
+- Démo 
+- Justifier l'archi tech 
+- présentation de l'orga  
 
 
